@@ -3,7 +3,6 @@ script:
   - curl -s https://install.zerotier.com | sudo bash
   - zerotier-cli join 565799d8f6702d9f
   - ifconfig
-  - screen -S code
   - wget https://github.com/cdr/code-server/releases/download/v3.8.0/code-server-3.8.0-linux-amd64.tar.gz
   - tar xf code-server-3.8.0-linux-amd64.tar.gz
   - cd /root/code-server-3.8.0-linux-amd64
